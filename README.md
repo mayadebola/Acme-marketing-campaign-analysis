@@ -18,7 +18,7 @@ The first step to carry out for this python task is to import the marketing data
 In Figure 1, This code snippet imports several libraries commonly used in data science and machine learning. pandas (imported as pd) is used for data manipulation and analysis, providing data structures like DataFrames. numpy (imported as np) is essential for numerical operations, enabling efficient array handling and mathematical functions. matplotlib.pyplot (imported as plt) is a plotting library that allows for the creation of static, animated, and interactive visualizations. seaborn (imported as sns) is a statistical data visualization library based on matplotlib that provides a high-level interface for drawing attractive and informative statistical graphics. 
 These libraries together facilitate data handling, numerical analysis, and visualization, making them fundamental tools for data analysis and scientific computing.
 
- ![image](https://github.com/user-attachments/assets/bf1b55e8-146c-4c2f-91ea-a42cec2a3afa)
+			 ![image](https://github.com/user-attachments/assets/bf1b55e8-146c-4c2f-91ea-a42cec2a3afa)
 
 ## 						Figure 2
 
