@@ -11,16 +11,24 @@ Tasks:
 
 ![image](https://github.com/user-attachments/assets/cba4607b-34c9-4cf4-a230-ffa96cdea6d1)
 
- 
-Figure 1
-The first step to carry out for this python task is to import the marketing dataset and all the libraries we will use to carry out the data analysis using python. In Figure 1, This code snippet imports several libraries commonly used in data science and machine learning. pandas (imported as pd) is used for data manipulation and analysis, providing data structures like DataFrames. numpy (imported as np) is essential for numerical operations, enabling efficient array handling and mathematical functions. matplotlib.pyplot (imported as plt) is a plotting library that allows for the creation of static, animated, and interactive visualizations. seaborn (imported as sns) is a statistical data visualization library based on matplotlib that provides a high-level interface for drawing attractive and informative statistical graphics. These libraries together facilitate data handling, numerical analysis, and visualization, making them fundamental tools for data analysis and scientific computing.
- 
-Figure 2
+					 Figure 1
+
+The first step to carry out for this python task is to import the marketing dataset and all the libraries we will use to carry out the data analysis using python. 
+In Figure 1, This code snippet imports several libraries commonly used in data science and machine learning. pandas (imported as pd) is used for data manipulation and analysis, providing data structures like DataFrames. numpy (imported as np) is essential for numerical operations, enabling efficient array handling and mathematical functions. matplotlib.pyplot (imported as plt) is a plotting library that allows for the creation of static, animated, and interactive visualizations. seaborn (imported as sns) is a statistical data visualization library based on matplotlib that provides a high-level interface for drawing attractive and informative statistical graphics. These libraries together facilitate data handling, numerical analysis, and visualization, making them fundamental tools for data analysis and scientific computing.
+
+ ![image](https://github.com/user-attachments/assets/bf1b55e8-146c-4c2f-91ea-a42cec2a3afa)
+
+## 						Figure 2
+
 In Figure 2, the entire marketing dataset is imported and shows a total of 2216 rows and 29 columns.
 
- 
-Figure 3
-This code snippet in Figure 3 checks for missing values in the marketing_data DataFrame and prints the total count of missing values for each column. The isnull() method returns a DataFrame of the same shape as marketing_data, where each element is True if the corresponding element in marketing_data is NaN (missing) and False otherwise. The sum() method then adds up the True values (which are treated as 1) for each column, providing the total number of missing values in each column. The print() function outputs these counts to the console, allowing you to quickly assess which columns have missing data and how many missing values each column contains.
+![image](https://github.com/user-attachments/assets/c02e6f0d-8737-4161-a1a9-a17624a7bd31)
+
+## 					Figure 3
+
+This code snippet in Figure 3 checks for missing values in the marketing_data DataFrame and prints the total count of missing values for each column.
+The isnull() method returns a DataFrame of the same shape as marketing_data, where each element is True if the corresponding element in marketing_data is NaN (missing) and False otherwise. The sum() method then adds up the True values (which are treated as 1) for each column, providing the total number of missing values in each column.
+The print() function outputs these counts to the console, allowing you to quickly assess which columns have missing data and how many missing values each column contains.
  
 Figure 4
 This code snippet checks and prints the data types (dtypes) of each column in the marketing_data DataFrame. The dtypes attribute of a DataFrame returns a Series with the data type of each column. By calling print(marketing_data.dtypes), the code outputs a list of columns along with their corresponding data types (e.g., int64, float64, object), helping you understand the kind of data stored in each column.
